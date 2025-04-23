@@ -1,0 +1,4 @@
+2025-03-24 20:23:57 - Table 'contact_messages' does not exist in the database.
+2025-04-15 09:47:14 - could not find driver
+2025-04-15 10:05:59 - Email failed: Failed to send email to site owner.
+2025-04-15 10:06:30 - Email failed: Failed to send email to site owner.
