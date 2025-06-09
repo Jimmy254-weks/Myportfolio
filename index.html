@@ -16,14 +16,14 @@
         <div class="user">
             <img src="images/Upwork.png" alt="James Wekesa">
             <h3 class="name">JAMES WEKESA</h3>
-            <p class="post">software developer and network engineer </p>
+            <p class="post">Software developer and Network Engineer </p>
         </div>
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#case-studies">Portfolio</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
@@ -49,10 +49,13 @@
             <div class="info">
                 <h3><span>Name :</span> James Wekesa</h3>
                 <h3 id="age"><span>Age :</span></h3>
-                <h3><span>Qualification :</span> Undergraduate</h3>
+                <h3><span>Qualification :</span> Bachelor of Science in Computer Science</h3>
                 <h3><span>Post :</span> Software developer and Network engineer</h3>
-                <h3><span>Technology:</span> PHP, Python, Javascript, HTML, CSS, MySQL, C, C++</h3>
-                <a href="https://drive.google.com/file/d/1JbW_hoT8vLuG_abNyBWlIsnr-WHFgaQl/view?usp=sharing"
+                <h3><span>Technologies:</span> C, C++, PHP, JavaScript, React, Python, HTML, CSS, Tailwind CSS
+                </h3>
+                <h3><span>Database: </span>MySQL, MongoDB</h3>
+                <h3><span>Web Development: </span>WordPress, jQuery, Bootstrap, Git, GitHub, Responsive Design,</h3>
+                <a href="https://drive.google.com/file/d/17Rz8x61Dj7mJz6UdeQgVZ3rHgEFMmQ5L/view?usp=sharing"
                     download="James CV"><button class="btn">Resume <i class="fas fa-download"></i></button></a>
             </div>
             <div class="counter">
@@ -63,7 +66,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <span>4</span>
+                    <span>6</span>
                     <h3>Projects Completed</h3>
                 </div>
                 <div class="box">
@@ -192,9 +195,7 @@
                     <div class="learning-category">
                         <h4><i class="fas fa-cogs"></i> Development Practices</h4>
                         <ul>
-                            <li>Test-Driven Development (TDD)</li>
                             <li>Pair Programming & Code Reviews</li>
-                            <li>Agile Methodology (Scrum, Kanban)</li>
                             <li>Version Control (Git, GitHub)</li>
                             <li>CI/CD Pipelines</li>
                             <li>Debugging & Performance Optimization</li>
@@ -205,31 +206,161 @@
         </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading">My <span>Portfolio</span></h1>
+    <!-- portfolio section -->
+    <section class="case-studies" id="case-studies">
+        <h1 class="heading">Project <span>Case Studies</span></h1>
 
-        <div class="box-container">
-            <div class="box" data-category="web">
-                <img src="images/1.png" alt="Project 1">
-                <a href="#case-study-1" class="case-study-link">View Case Study</a>
+        <div class="case-study" id="case-study-1">
+            <div class="case-header">
+                <h2>Uzima Hospital Lab System</h2>
             </div>
-            <div class="box" data-category="web">
-                <img src="images/2.png" alt="Project 2">
-                <a href="#case-study-2" class="case-study-link">View Case Study</a>
-            </div>
-            <div class="box" data-category="python">
-                <img src="images/3.png" alt="Project 3">
-                <a href="#case-study-3" class="case-study-link">View Case Study</a>
-            </div>
-            <div class="box" data-category="web">
-                <img src="images/4.png" alt="Project 4">
-                <a href="#case-study-4" class="case-study-link">View Case Study</a>
-            </div>
-            <div class="box" data-category="python">
-                <img src="images/5.png" alt="Project 5">
-                <a href="#case-study-5" class="case-study-link">View Case Study</a>
+
+            <div class="case-content">
+                <div class="challenge">
+                    <h3><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
+                    <p>Uzima Hospital needed a digital laboratory system to replace their manual record-keeping. They
+                        required efficient test management, accurate patient tracking, and timely result reporting, all
+                        integrated within a secure, web-based platform.</p>
+                </div>
+
+                <div class="solution">
+                    <h3><i class="fas fa-lightbulb"></i> My Solution</h3>
+                    <ul>
+                        <li>Developed a custom PHP web system with secure login roles (admin, lab technician, doctor)
+                        </li>
+                        <li>Implemented patient registration, test ordering, and result entry modules</li>
+                        <li>Integrated billing logic for test pricing and extra charges</li>
+                        <li>Added dynamic report generation (PDF and printable view)</li>
+                        <li>Database implemented in MySQL with clear relationships for efficiency</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <h3><i class="fas fa-chart-line"></i> Results</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">90%</span>
+                            <span>Faster Report Turnaround</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">+100%</span>
+                            <span>Data Accuracy Improvement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://github.com/Jimmy254-weks/Uzima-Hospital-Lab-system" class="btn">View Live Project <i
+                        class="fas fa-external-link-alt"></i></a>
             </div>
         </div>
+
+        <!-- Project Management System Case Study -->
+        <div class="case-study" id="case-study-2">
+            <div class="case-header">
+                <h2>Project Management System</h2>
+            </div>
+
+            <div class="case-content">
+                <div class="challenge">
+                    <h3><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
+                    <p>An organization needed a centralized platform to manage projects, monitor performance, assign
+                        tasks, and maintain transparency across multiple departments. Manual coordination was
+                        time-consuming and prone to errors.</p>
+                </div>
+
+                <div class="solution">
+                    <h3><i class="fas fa-lightbulb"></i> My Solution</h3>
+                    <ul>
+                        <li>Built a role-based PHP system with access control for admins, project managers, and users
+                        </li>
+                        <li>Designed project CRUD operations with country and theme linkage features</li>
+                        <li>Implemented dynamic task assignment and progress tracking per project</li>
+                        <li>Integrated audit logs and version history for transparency and accountability</li>
+                        <li>Enabled document uploads, database logging, and data filtering for reports</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <h3><i class="fas fa-chart-line"></i> Results</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">75%</span>
+                            <span>Efficiency Improvement in Project Oversight</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">+60%</span>
+                            <span>Reduction in Administrative Time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://github.com/Jimmy254-weks/ProjectManagementSystem" class="btn">View Live Project <i
+                        class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <!-- Weather App Case Study -->
+        <div class="case-study" id="case-study-3">
+            <div class="case-header">
+                <h2>Weather Forecast Web App</h2>
+            </div>
+
+            <div class="case-content">
+                <div class="challenge">
+                    <h3><i class="fas fa-exclamation-circle"></i> The Challenge</h3>
+                    <p>Users needed a fast, intuitive way to check current weather conditions and forecasts by city. The
+                        application had to fetch real-time data from a public API, handle edge cases gracefully, and
+                        deliver a responsive experience across devices.</p>
+                </div>
+
+                <div class="solution">
+                    <h3><i class="fas fa-lightbulb"></i> My Solution</h3>
+                    <ul>
+                        <li>Built using React and deployed via GitHub Pages for live access</li>
+                        <li>Integrated OpenWeatherMap API to retrieve real-time weather data</li>
+                        <li>Implemented dynamic search by city with loading states and error handling</li>
+                        <li>Styled with CSS and responsive layout for both desktop and mobile users</li>
+                        <li>Optimized React component structure for readability and reuse</li>
+                    </ul>
+                    <div class="tech-used">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">OpenWeatherMap API</span>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <h3><i class="fas fa-chart-line"></i> Results</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="number">100%</span>
+                            <span>Responsive Design Achieved</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">24/7</span>
+                            <span>Live Weather Access</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://github.com/Jimmy254-weks/weather-app" class="btn">View Live Project <i
+                        class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
     </section>
 
     <section class="contact" id="contact">
